@@ -16,6 +16,10 @@
 
 body {
     background-color: hsl(212, 45%, 89%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .card {
@@ -23,7 +27,6 @@ body {
     width: 300px;
     height: 500px;
     border-radius: 20px;
-    margin: 100px auto;
     text-align: center;
     padding: 16px;
     box-shadow: 0px 10px 20px hsl(220, 12%, 80%);
